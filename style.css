@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text: #D4A373;
+    --secondary-text: #000000;
+    --primary-background: #FAEDCD;
+    --button-background:#CCD5AE;
+    --shadow: #E9EDC9;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    background: var(--primary-background);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    position: relative;
+    top: 50px;
+    width: 400px;
+    height: min-content;
+    background-color: #ffffff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 20px;
+    box-shadow: 1px 3px 5px var(--secondary-text);
+}
+
+.inputs{
+    padding: 20px 0px 20px 10px;
+    margin: 20px 0 30px 0;
+    background-color: var(--shadow);
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 20px;
+    height: 30px;
+}
+
+input{
+    outline: none;
+    font-size: 20px;
+    background-color: var(--shadow);
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+}
+
+button{
+    outline: none;
+    font-size: 20px;
+    background-color: var(--button-background);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: var(--primary-text);
+}
+
+.task-list{
+    position: relative;
+    left: -9px;
+    line-height: 30px;
+
+}
+
+#list-items li{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+li span{
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 50%;
+    width: 70%;
+}
+
+
+.completed{
+    text-decoration: line-through !important;
+    color: gray;
+}
+
+.item{
+    text-decoration: none;
+}
+
+.remove{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
