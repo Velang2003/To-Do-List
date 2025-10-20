@@ -89,7 +89,7 @@ cd To-Do-List
 
 ### 👤 Velan
 - 🎓 2nd Year BCA Student — Nrupathunga University
-- 📧 your.email@example.com
+- 📧 velangabhay001@gmail.com
 
 ## 🪪 License
 
